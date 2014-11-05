@@ -9,3 +9,5 @@ title: 我的Blog
 <li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+<p>{{ site.baseurl }}</p>
+<p>{{ site.url }}</p>
